@@ -25,7 +25,7 @@ Add the dependency
 ### Creating a Notification
 ```java
 String id = "ID_1";
-long when = System.currentTimeMillis() + 3600; // in an hour
+long when = System.currentTimeMillis() + 3600000; // in an hour
 String contentTitle = "Example Title";
 String contentText = "Example Content";
 String contentInfo = "Example Info";
